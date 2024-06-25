@@ -1,0 +1,8 @@
+zsh: command not found: pip
+pip is for python old version, use pip3 instead.
+
+/**** instal panda in python  *****/
+pip3 install pandas
+ 
+/**** check panda version *****/
+python3 -c "import pandas; print(pandas.__version__)"
